@@ -11,7 +11,7 @@ protocol.
 see `COPYING`.
 
 
-[![Build Status](https://travis-ci.org/yakaz/sysloggerl.svg?branch=master)](https://travis-ci.org/yakaz/sysloggerl)
+[![Build Status](https://travis-ci.org/capflam/sysloggerl.svg?branch=master)](https://travis-ci.org/capflam/sysloggerl)
 
 Table of contents
 -----------------
