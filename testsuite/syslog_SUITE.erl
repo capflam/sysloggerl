@@ -49,7 +49,7 @@ all() -> [
 
 
 -define(PRIORITY_RE, "<(\\d{1,3})>").
--define(TS_RE,       "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\s\\d{1,2}\\s\\d{2}:\\d{2}:\\d{2}").
+-define(TS_RE,       "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\s+\\d{1,2}\\s\\d{2}:\\d{2}:\\d{2}").
 -define(HOST_RE,     "[^\\s]+").
 -define(PID_RE,      [$\\,$[, pid_to_list(self()), $\\,$]]).
 -define(MSG_RE,      "(.+)").
